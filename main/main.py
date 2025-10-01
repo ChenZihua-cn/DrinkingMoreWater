@@ -3,7 +3,6 @@ from kivy.uix.label import Label
 from plyer import gps
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
-from android.permissions import request_permissons, Permission
 
 class GpsApp(App):
     def build(self):
